@@ -7,5 +7,4 @@ class Adress(models.Model):
     lat = models.FloatField(blank=True, null=True)
     long = models.FloatField(blank=True, null=True)
 
-
-    g
+    

@@ -5,7 +5,4 @@ from django.db import models
 class Adress(models.Model):
     address = models.TextField()
     lat = models.FloatField(blank=True, null=True)
-    long = models.FloatField(blank=True, null=True)
-
-
-    g
+    long = models.FloatField(blank=True)
