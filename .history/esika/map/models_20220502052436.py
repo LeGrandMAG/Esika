@@ -4,4 +4,4 @@ from django.db import models
 
 class Adress(models.Model):
     address = models.TextField()
-    lat = models.FloatField(blank=True)
+    lat = models.FloatField
